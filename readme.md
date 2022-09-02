@@ -1,8 +1,27 @@
 <!-- readme for dockerized apps-->
+# Explanation about the projects
+
+The projects are 2 dockerized apps:
+
+- [frontend](https://github.com/mareasperez/task-frontend-angular/)
+- [backend](https://github.com/mareasperez/MongoExample)
+
+## Frontend
+
+frontend is a simple frontend app with [angular](https://angular.io/) version 14 (lastest stable version) and [TailwindCSS](https://tailwindcss.com/) version 3.1.8 as a CSS framework.
+
+## Backend
+
+Backend is a simple backend CRUD WebAPI with [NetCore](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) version 6 and  mongoDB running on Mongo [Atlas](https://www.mongodb.com/atlas/database).
+
 # Dockerized apps
 
 When starting the deployment we assume that you have
 docker installed on the host computer.
+
+# Why docker?
+
+Docker is a containerization platform that provides a container runtime environment for your applications is a container is a lightweight, portable, and isolated execution environment for your application. so we can run our apps in docker containers quickly and easily.
 
 ## Shell commands
 
