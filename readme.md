@@ -49,11 +49,15 @@ cd contollo-tasks
 
 #### iniatializing the repository submodules
 
+* *This step is very important to be able to run the dockerized apps, cause we need to have iniatialized the submodules.* *
+
 ```bash
 git submodule init
 ```
 
 #### updating the repository submodules
+
+* *This step is for updating (downloading) the submodules files without this step the dockerized apps will not work.* *
 
 ```bash
 git submodule update
