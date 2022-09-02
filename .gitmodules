@@ -1,0 +1,6 @@
+[submodule "MongoExample"]
+	path = MongoExample
+	url = git@github.com:mareasperez/MongoExample.git
+[submodule "task-frontend-angular"]
+	path = task-frontend-angular
+	url = git@github.com:mareasperez/task-frontend-angular.git
